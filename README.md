@@ -17,3 +17,6 @@
 - Word2Vec 모형 학습 
 - GRU 모형 학습
 
+
+## 환경 설정
+`sh ./install_requirements.sh`
