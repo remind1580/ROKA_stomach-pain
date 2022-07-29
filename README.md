@@ -1,22 +1,22 @@
-# 복통 환자 분류 모델
-
-- 기간: 2021.12
-- 내용: 군 병원 의무 기록 기반, 응급 및 수술 여부를 예측하는 모델
+# Developing algorithm for triage of abdominal pain using artificial intelligence 
 
 
-
-## 전처리
-
-- pykospell: 맞춤법 교정
-- mecab: 형태소 분석
+## Dataset
+- Data collection period : 2015.1 ~ 2020.1
+- Target : All patients with abdominal pain who visited to the ED of military hospital
 
 
+## Pre-processing
 
-## 모델링
-
-- Word2Vec 모형 학습 
-- GRU 모형 학습
+- Pyko : Python library for correcting Korean spelling.
+- Mecab: open-source text segmentation library for morphological analyzer
 
 
-## 환경 설정
+## Modeling
+
+- Word2Vec Model learning
+- GRU (Gated Recurrent Units) Model learning 
+
+
+## Set-up 
 `sh ./install_requirements.sh`
