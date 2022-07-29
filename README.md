@@ -8,8 +8,9 @@
 
 ## Pre-processing
 
-- Pyko : Python library for correcting Korean spelling.
-- Mecab: open-source text segmentation library for morphological analyzer
+- Mecab: Open-source text segmentation library for morphological analyzer
+- KoNLPy : Python package for natural language processing of the Korean language
+- Py-hanspell : Korean spelling checker library for Python using Naver Spell Checker
 
 
 ## Modeling
