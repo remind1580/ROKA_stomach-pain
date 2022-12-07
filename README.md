@@ -15,7 +15,7 @@
 
 ## Modeling
 
-- Word2Vec Model learning
+- Counter vectorizer
 - GRU (Gated Recurrent Units) Model learning 
 
 
