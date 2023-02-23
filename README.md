@@ -15,8 +15,17 @@
 
 ## Modeling
 
-- Counter vectorizer
-- GRU (Gated Recurrent Units) Model learning 
+- Machine learning models
+  - Logistic regression, decision tree, XGboost, and multi-layer perceptron
+  - Tabular data and text data were utilized
+  - Text data was encoded using a counter vectorizer
+- Deep neural network
+  - Fully connected layer and GRU (Gated Recurrent Units) 
+  - Tabular data and text data were utilized
+  - Text data was encoded using the embedding layer
+- Mixed model with prior medical knowledge
+  - The best model, the XGboost model, combined with prior medical knowledge
+  - The rules were depicted in code `3_machine_learning_models.ipynb`
 
 
 ## Set-up 
